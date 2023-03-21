@@ -1,10 +1,10 @@
+#some blocks of code taken from SplitREG christidis
+
 #include <RcppArmadillo.h>
 using namespace Rcpp;
 using namespace arma;
 // [[Rcpp::depends(RcppArmadillo)]]
 #include "config.h"
-
-
 // Function to return the positive part of any number
 double Positive_Part(const double & x){
   
